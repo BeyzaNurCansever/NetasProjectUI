@@ -1,6 +1,4 @@
-<!-- <navbar></navbar>
- -->
- <nav class="navbar navbar-dark bg-primary">
+<nav class="navbar navbar-dark bg-primary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
       <img src="assets/img2.png" alt="" width="50" height="50" class="d-inline-block align-text-top">
@@ -8,11 +6,6 @@
     </a>
     <button type="button" class="btn btn-secondary" (click)="login()" *ngIf="!isLoggedIn()">Login</button>
     <button type="button" class="btn btn-secondary" (click)="logout()" *ngIf="isLoggedIn()">Logout</button>
-    <!-- <button type="button" class="btn btn-secondary" (click)="callProfile()" *ngIf="isLoggedIn()" >GET PROFİLE</button> -->
-
 
   </div>
 </nav>
-<div class="mg-1" *ngIf="isLoggedIn()" >
-    <calculator></calculator>
-</div>
