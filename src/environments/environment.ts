@@ -1,4 +1,4 @@
 export const environment = {
 
-  baseApiURL:'https://localhost:7009'
+  baseApiURL:'https://netasproject.azurewebsites.net/'
 };
