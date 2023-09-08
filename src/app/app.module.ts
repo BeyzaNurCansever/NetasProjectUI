@@ -37,7 +37,8 @@ export function MsalInstanceFactory():IPublicClientApplication
 
 export function MSALInterceptorConfigFactory(): MsalInterceptorConfiguration {
   const protectedResourceMap = new Map<string, Array<string>>();
-  protectedResourceMap.set('localhost', ['api://9d07821d-6487-4c61-be7f-68edaf33b2b4/data.save']);
+  //burasının değiştirilmesi gerek
+  protectedResourceMap.set('https://projedeneme.azurewebsites.net', ['api://9d07821d-6487-4c61-be7f-68edaf33b2b4/data.save']);
 
   return {
     interactionType: InteractionType.Popup,
