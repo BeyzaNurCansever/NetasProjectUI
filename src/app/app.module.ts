@@ -17,12 +17,8 @@ export function MsalInstanceFactory():IPublicClientApplication
     {
       auth:{
         clientId:'548d24a6-6546-443c-b343-ae10459d98ae',
-
         redirectUri:'https://orange-ocean-01ab09e10.3.azurestaticapps.net',
          authority:'https://login.microsoftonline.com/common'
-
-
-
       },
       cache:
       {
